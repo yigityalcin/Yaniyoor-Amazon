@@ -1,0 +1,482 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<body>
+    <div class="container bg-white g-0 mt-5 mb-4">
+        <!-- İçerik -->
+        <div class="pageContent">
+            <!-- Navbar -->
+            <header class="navbar-main">
+                <nav class="navbar">
+                    <a class="navbar-brand ms-5" href="#">
+                        <img src="~/images/yanıyoor-beyaz.png" alt="Web Sitenizin Logosu">
+
+                    </a>
+                    <!-- Navbar İçeriği -->
+                    <div class="d-flex p-2 grid gap-2">
+                        <!-- Dropdown Filtre (Kategori) -->
+                        <div class="dropdown mr-2">
+                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                Kategori
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                                <a class="dropdown-item" href="#">Kategori 1</a>
+                                <a class="dropdown-item" href="#">Kategori 2</a>
+                                <a class="dropdown-item" href="#">Kategori 3</a>
+                            </div>
+                        </div>
+
+                        <!-- Choice Button (Fiyat) -->
+                        <div class="btn-group mr-2" role="group">
+                            <button type="button" class="btn btn-dark" style="color: white;">Fiyat</button>
+                            <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Düşükten Yükseğe</a>
+                                <a class="dropdown-item" href="#">Yüksekten Düşüğe</a>
+                            </div>
+                        </div>
+
+                        <!-- Choice Button (Marka) -->
+                        <div class="btn-group mr-2" role="group">
+                            <button type="button" class="btn btn-dark" style="color: white;">Marka</button>
+                            <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                <span class="sr-only">Toggle Dropdown</span>
+                            </button>
+                            <div class="dropdown-menu">
+                                <a class="dropdown-item" href="#">Marka 1</a>
+                                <a class="dropdown-item" href="#">Marka 2</a>
+                            </div>
+                        </div>
+
+                        <!-- Dropdown Listesi (Renk) -->
+                        <div class="dropdown mr-2">
+                            <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuRenk" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
+                                Renk
+                            </button>
+                            <div class="dropdown-menu" aria-labelledby="dropdownMenuRenk">
+                                <a class="dropdown-item" href="#">Kırmızı</a>
+                                <a class="dropdown-item" href="#">Mavi</a>
+                                <a class="dropdown-item" href="#">Yeşil</a>
+                            </div>
+                        </div>
+                        <!-- Input Filtre (Arama) -->
+                        <div class="input-group">
+                            <input type="text" class="form-control" placeholder="Arama..." aria-label="Arama" aria-describedby="button-addon2">
+                            <div class="input-group-append">
+                                <button class="btn btn-outline-light" type="button" id="button-addon2" style="color: white;">Ara</button>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </header>
+
+
+            <section class="trending-bar">
+                <div id="trending-bar-start">
+                    <div class="marquee">
+
+                        <span>
+                            <i class="fas fa-fire"></i> "Finansal Piyasalarda Günlük Analiz ve Strateji: Yeni Fırsatlar İçin İpuçları!"
+                        </span>
+                        <span>
+                            <i class="fas fa-fire"></i> "Kripto Paraların Güncel Durumu ve Gelecek Beklentileri"
+                        </span>
+                        <span>
+                            <i class="fas fa-fire"></i> "Döviz Kurlarındaki Son Değişiklikler ve Etkileri"
+                        </span>
+                        <span>
+                            <i class="fas fa-fire"></i> "Petrol Piyasasında Öngörüler ve Enerji Sektöründeki Yenilikler"
+                        </span>
+                        <!-- İstediğin kadar metin ekleyebilirsin -->
+                    </div>
+                </div>
+            </section>
+
+
+            <!-- Ürün Filtreleri veya Başlık -->
+            <div class="row mb-4">
+                <!-- Buraya Filtreler veya Başlık ekleyin -->
+            </div>
+
+            <div class="section-products mb-5 p-3">
+                <div class="row mb-4 p-3 text-center">
+                    <div class="col-md-12 col-lg-12">
+                        <div class="card-header">
+                            <h3>Best Offers</h3>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <!-- Single Product1 -->
+                    <div class="col-2">
+                        <div id="product-1" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/41RykozFMEL._AC_SR400,600_AGcontrast_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Elegant Watch</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product2 -->
+                    <div class="col-2">
+                        <div id="product-2" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/6120mO7oP+L._AC_SX679_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Stylish Sunglasses</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product3 -->
+                    <div class="col-2">
+                        <div id="product-3" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/51guNb9R-9L._AC_SY879_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Comfortable Sneakers</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product4 -->
+                    <div class="col-2">
+                        <div id="product-4" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/81V4oJ107eL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <span class="new">new</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Trendy Backpack</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product5 -->
+                    <div class="col-2">
+                        <div id="product-1" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/81W4FHgCWUL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Smartphone Stand</h3>
+                                <h4 class="product-old-price">$79.99</h4>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Single Product6 -->
+                    <div class="col-2">
+                        <div id="product-2" class="single-product">
+                            <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/71dILjGG-hL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                <span class="discount">15% off</span>
+                                <ul>
+                                    <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                    <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                </ul>
+                            </div>
+                            <div class="part-2">
+                                <h3 class="product-title">Wireless Earbuds</h3>
+                                <h4 class="product-price">$49.99</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="section-products2 p-3">
+                @* <div class="row mb-4 p-3 text-center">
+                <div class="col-md-12 col-lg-12">
+                <div class="card-header">
+                <h3>Best Offers</h3>
+                </div>
+                </div>
+                </div> *@
+                <div class="row">
+
+                    <!-- Owl Carousel -->
+                    <div class="owl-carousel owl-theme">
+                        <!-- Single Product1 -->
+                        <div class="item">
+                            <div id="product-1" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/61Xn5Z3E2HL._AC_SL1200_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Luxury Watch</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-2%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product2 -->
+                        <div class="item">
+                            <div id="product-2" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/A1DNLFUfGxL._AC_SY741_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <span class="discount">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Fashionable Sunglasses</h3>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-56%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product3 -->
+                        <div class="item">
+                            <div id="product-3" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/61Jmz9RNLNL._SL1000_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Leather Backpack</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-25%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product4 -->
+                        <div class="item">
+                            <div id="product-4" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/71EstRzrUfL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <span class="new">new</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Adjustable Stand</h3>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-20%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product5 -->
+                        <div class="item">
+                            <div id="product-5" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/81UtF+M-LSL._AC_SX569_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Philips Television</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-7%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Single Product6 -->
+                        <div class="item">
+                            <div id="product-6" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/71dILjGG-hL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <span class="discount">15% off</span>
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Sonicare 6</h3>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-10%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="product-1" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/71+mOn9dhBL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Spiderman Mask</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-40%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="product-1" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/81++s7AGryL._AC_SL1500_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Onio AirFryer 6L</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-67%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="item">
+                            <div id="product-1" class="single-product">
+                                <div class="part-1" style="background: url('https://m.media-amazon.com/images/I/41F51UW8HPL._AC_SL1000_.jpg') no-repeat center; background-size: contain; transition: all 0.3s;">
+                                    <ul>
+                                        <li><a href="#"><i class="fas fa-shopping-cart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-heart"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-plus"></i></a></li>
+                                        <li><a href="#"><i class="fas fa-expand"></i></a></li>
+                                    </ul>
+                                </div>
+                                <div class="part-2">
+                                    <h3 class="product-title">Icardi Jersey</h3>
+                                    <h4 class="product-old-price">$79.99</h4>
+                                    <h4 class="product-price">$49.99</h4>
+                                    <p>
+                                        <h4 class="product-discount bg-danger text-white">-32%</h4>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <!-- Continue with other product items -->
+                    </div>
+                </div>
+            </div>
+            <!-- Alt Bölüm -->
+            <div class="row">
+                <!-- Buraya alt bölüm içeriği eklenir -->
+            </div>
+        </div>
+        <footer class="footer bg-dark text-lg-start mt-5">
+            <!-- Copyright -->
+            <div class="text-white text-center p-3">
+                © 2023 Copyright:
+                <a class="text-white" href="https://yaniyoor.com/">yaniyoor.com</a>
+            </div>
+            <!-- Copyright -->
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            var owl = $(".owl-carousel");
+
+            owl.owlCarousel({
+                loop: true,
+                margin: 10,
+                responsiveClass: true,
+                responsive: {
+                    0: {
+                        items: 1,
+                        nav: true
+                    },
+                    600: {
+                        items: 3,
+                        nav: false
+                    },
+                    1000: {
+                        items: 5,
+                        nav: true,
+                        loop: true,
+                        rewind: true // rewind option added
+                    }
+                }
+            });
+
+            // Custom Navigation Events
+            $(".custom-next").click(function () {
+                owl.trigger("next.owl.carousel");
+            });
+            $(".custom-prev").click(function () {
+                owl.trigger("prev.owl.carousel");
+            });
+        });
+    </script>
+
+</body>
+
