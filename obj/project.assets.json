@@ -9665,9 +9665,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyor-Amazon.csproj",
-      "projectName": "Yaniyor-Amazon",
-      "projectPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyor-Amazon.csproj",
+      "projectUniqueName": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyoor-Amazon.csproj",
+      "projectName": "Yaniyoor-Amazon",
+      "projectPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyoor-Amazon.csproj",
       "packagesPath": "C:\\Users\\yigit\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\obj\\",
       "projectStyle": "PackageReference",

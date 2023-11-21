@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "ngsa6boolW3He/ss8YReQYP7EdJglF1qy28f81JlAJtfc//+Kjse9QaTCzUbb98dPipAenHIpiEWNPbOa0zNFQ==",
+  "dgSpecHash": "KR7oqDv3+G1EBmUTmXwgWXJz/tFsUhogB9WJfwqMm7Mu5wNX7yE3VP8iYAeRJYkm6ugEuosqla2pRzWNA7wYrw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyor-Amazon.csproj",
+  "projectFilePath": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\Yaniyoor-Amazon.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\yigit\\.nuget\\packages\\humanizer\\2.14.1\\humanizer.2.14.1.nupkg.sha512",
     "C:\\Users\\yigit\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
