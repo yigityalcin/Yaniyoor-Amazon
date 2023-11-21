@@ -1,0 +1,3 @@
+﻿<Project>
+  <Import Project="..\build\Yaniyoor-Amazon.props" />
+</Project>

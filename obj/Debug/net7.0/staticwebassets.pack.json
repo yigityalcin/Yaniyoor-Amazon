@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Yaniyor-Amazon.bundle.scp.css",
-      "PackagePath": "staticwebassets\\Yaniyor-Amazon.bundle.scp.css"
+      "Id": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\Yaniyoor-Amazon.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Yaniyoor-Amazon.bundle.scp.css"
     },
     {
       "Id": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\css\\site.css",
@@ -265,20 +265,20 @@
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Yaniyor-Amazon.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.Yaniyoor-Amazon.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Yaniyor-Amazon.props",
-      "PackagePath": "build\\Yaniyor-Amazon.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.Yaniyoor-Amazon.props",
+      "PackagePath": "build\\Yaniyoor-Amazon.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Yaniyor-Amazon.props",
-      "PackagePath": "buildMultiTargeting\\Yaniyor-Amazon.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.Yaniyoor-Amazon.props",
+      "PackagePath": "buildMultiTargeting\\Yaniyoor-Amazon.props"
     },
     {
-      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Yaniyor-Amazon.props",
-      "PackagePath": "buildTransitive\\Yaniyor-Amazon.props"
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.Yaniyoor-Amazon.props",
+      "PackagePath": "buildTransitive\\Yaniyoor-Amazon.props"
     }
   ],
   "ElementsToRemove": []
