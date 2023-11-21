@@ -4,6 +4,7 @@
 /* Temel Ayarlar */
 html {
     font-size: 14px;
+    zoom:90%;
 }
 
 @media (min-width: 768px) {
@@ -42,7 +43,7 @@ body {
 }
 
 /* Header ve Leaderboard Stilleri */
-#header_and_leaderboard {
+.header_and_leaderboard {
     padding: 5px 0 5px;
     height: 130px;
     min-height: 100px;
@@ -130,6 +131,18 @@ a:hover {
     font-weight: 500;
 }
 
+.section-products .card-header h3 {
+    font-size: 1rem;
+    color: #fe302f;
+    font-weight: 500;
+    margin-bottom:15px;
+}
+
+.section-products .card-header h2 {
+    font-size: 2rem;
+    font-weight: 400;
+    color: #444444;
+}
     .section-products .single-product {
         margin-bottom: 66px;
     }
@@ -362,4 +375,3 @@ a:hover {
     border: groove;
     border-width: 1px;
 }
-

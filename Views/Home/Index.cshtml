@@ -4,19 +4,22 @@
 }
 
 <body>
-    <div class="container bg-white g-0 mt-5 mb-4">
+@*     <div class="header_and_leaderboard"></div>
+ *@    <div class="container bg-white g-0 mt-5 mb-4">
         <!-- İçerik -->
         <div class="pageContent">
             <!-- Navbar -->
             <header class="navbar-main">
-                <nav class="navbar">
-                    <a class="navbar-brand ms-5" href="#">
+                <nav class="navbar d-flex align-items-center">
+                    <a class="navbar-brand ms-4" href="#">
                         <img src="~/images/yanıyoor-beyaz.png" alt="Web Sitenizin Logosu">
-
                     </a>
-                    <!-- Navbar İçeriği -->
-                    <div class="d-flex p-2 grid gap-2">
-                        <!-- Dropdown Filtre (Kategori) -->
+                    <div class="amazon">
+                        <a href="https://www.amazon.com.tr/" target="_blank">
+                            <img src="~/images/amazon.png" style="max-width:7%" alt="Amazon Logo">
+                        </a>
+                    </div>
+                    <div class="d-flex p-2 gap-1">
                         <div class="dropdown mr-2">
                             <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuButton" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
                                 Kategori
@@ -27,8 +30,6 @@
                                 <a class="dropdown-item" href="#">Kategori 3</a>
                             </div>
                         </div>
-
-                        <!-- Choice Button (Fiyat) -->
                         <div class="btn-group mr-2" role="group">
                             <button type="button" class="btn btn-dark" style="color: white;">Fiyat</button>
                             <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
@@ -39,8 +40,6 @@
                                 <a class="dropdown-item" href="#">Yüksekten Düşüğe</a>
                             </div>
                         </div>
-
-                        <!-- Choice Button (Marka) -->
                         <div class="btn-group mr-2" role="group">
                             <button type="button" class="btn btn-dark" style="color: white;">Marka</button>
                             <button type="button" class="btn btn-dark dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
@@ -51,8 +50,6 @@
                                 <a class="dropdown-item" href="#">Marka 2</a>
                             </div>
                         </div>
-
-                        <!-- Dropdown Listesi (Renk) -->
                         <div class="dropdown mr-2">
                             <button class="btn btn-dark dropdown-toggle" type="button" id="dropdownMenuRenk" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" style="color: white;">
                                 Renk
@@ -63,7 +60,6 @@
                                 <a class="dropdown-item" href="#">Yeşil</a>
                             </div>
                         </div>
-                        <!-- Input Filtre (Arama) -->
                         <div class="input-group">
                             <input type="text" class="form-control" placeholder="Arama..." aria-label="Arama" aria-describedby="button-addon2">
                             <div class="input-group-append">
@@ -98,7 +94,7 @@
 
 
             <!-- Ürün Filtreleri veya Başlık -->
-            <div class="row mb-4">
+            <div class="row mb-2">
                 <!-- Buraya Filtreler veya Başlık ekleyin -->
             </div>
 
@@ -107,6 +103,7 @@
                     <div class="col-md-12 col-lg-12">
                         <div class="card-header">
                             <h3>Best Offers</h3>
+                            <h2>Today's Deals</h2>
                         </div>
                     </div>
                 </div>

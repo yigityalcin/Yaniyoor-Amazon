@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "X78iF0yaAwqGr6aO1AEHB6mfP7u89kBXDy8S2VyIXRk=",
+  "Hash": "pPB9l3EC4AzityAQoYoZlfL9pxg5/hoFy1f0favdsVo=",
   "Source": "Yaniyoor-Amazon",
   "BasePath": "_content/Yaniyoor-Amazon",
   "Mode": "Default",
@@ -83,6 +83,23 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\favicon.ico"
+    },
+    {
+      "Identity": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\images\\amazon.png",
+      "SourceId": "Yaniyoor-Amazon",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\",
+      "BasePath": "_content/Yaniyoor-Amazon",
+      "RelativePath": "images/amazon.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\images\\amazon.png"
     },
     {
       "Identity": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\images\\campfire.png",

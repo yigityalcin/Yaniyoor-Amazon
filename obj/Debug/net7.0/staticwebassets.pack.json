@@ -13,6 +13,10 @@
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
+      "Id": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\images\\amazon.png",
+      "PackagePath": "staticwebassets\\images\\amazon.png"
+    },
+    {
       "Id": "C:\\Users\\yigit\\OneDrive\\Belgeler\\GitHub\\Yaniyoor-Amazon\\wwwroot\\images\\campfire.png",
       "PackagePath": "staticwebassets\\images\\campfire.png"
     },
