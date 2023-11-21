@@ -11,6 +11,11 @@ html {
     html {
         font-size: 16px;
     }
+    .product-title {
+        overflow: hidden;
+        text-overflow: ellipsis; /* Metni kýsaltýr ve "..." ekler */
+        white-space: nowrap; /* Metni bir satýrda tutar */
+    }
 }
 
 /* Reset Stilleri */
@@ -366,8 +371,9 @@ a:hover {
             transform: translateY(-50%);
         }
 
-.col-2 {
-    border:groove;
+.col {
+    border-right:groove;
+    border-left:groove;
     border-width:1px;
 }
 
